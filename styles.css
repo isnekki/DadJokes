@@ -1,0 +1,48 @@
+html, body {
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    background-color: blueviolet;
+    display: flex;
+    flex: 1;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.jokeContainer {
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px;
+    max-width: 500px;
+    height: auto;
+}
+
+button {
+    background-color: purple;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: normal;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+h3 {
+    color: gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    font-size: 15px;
+}
