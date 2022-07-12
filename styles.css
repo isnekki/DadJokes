@@ -32,6 +32,11 @@ button {
     color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 15px;
+    cursor: pointer;
+}
+
+button:active {
+    background-color: indigo;
 }
 
 h1 {
